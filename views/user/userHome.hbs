@@ -1,0 +1,71 @@
+<!--- navbar-->
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.logout-btn {
+    background-color: #ff4b5c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.logout-btn:hover {
+    background-color: #ff1c3c;
+}
+
+.hero {
+    background-color:burlywood;
+    color: #fff;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); 
+}
+
+.welcome-card {
+    background-color: red;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.welcome-card h2 {
+    margin: 0;
+    font-size: 28px;
+    
+}
+
+
+</style>
+<div class="navbar">
+    <h1>HOME PAGE</h1>
+    <a href="/user/logout"><button class="logout-btn">LOGOUT</button></a>  
+</div>
+<div class="hero">
+    <div class="welcome-card">
+        <h2>WELCOME TO HOMEPAGE</h2>
+    </div>
+</div>
